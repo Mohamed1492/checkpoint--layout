@@ -1,0 +1,435 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@700&display=swap');
+
+.logo{
+    width: 268px;
+    height: 33px;
+    margin-top: 10px;
+}
+.logo , li:hover{
+    cursor: pointer;
+}
+.icon-image{
+
+    margin-left: 50px;
+}
+.main-menu{
+    display: flex;
+    justify-content:space-around;
+    width: 400px;
+    margin-left: -110px;
+}
+#Departments:hover .submenu{
+    display: block;
+}
+li:hover{
+    color:#00bfa5; 
+}    
+.submenu{
+    display: none;
+    position: absolute;
+    line-height: 18px;
+  box-shadow: 0 5px 10px 0 #d3cfc9;
+  width: 180px;
+  height: 220px;
+  margin-left: -110px;
+  background-color: white;
+}
+.submenu-elements{
+    padding: 6px 0px 6px 16px ;
+    margin-left: -40px;
+}
+
+.submenu-elements:hover{
+    background-color: #f6f8f8;
+}
+#top-submenu{
+    margin-top: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    list-style-position: outside;
+    width: 251.65px ;
+    height: 69.9px;
+}
+li{
+    list-style: none;
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #ababab;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: -10px;
+    margin-left: -10px;
+    position:fixed; 
+    background-color: white;
+    width: 100%;
+    height: 70PX;
+
+}
+
+/* lead-section style */
+
+.titre-1{
+    color: #00bfa5;
+    font-family: "Work Sans", Arial, sans-serif;
+    line-height: 44.2px;
+    font-size: 34px;
+    font-weight: 300;
+}
+.lead-section{
+    text-align: center;
+    margin-left: -8px;
+}
+.lead-section-p{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.p1{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    color: #747474;
+    height: 112px;
+    width: 477.5px;
+    text-align: left;
+    padding: 10px;
+}
+
+/* 3-box */
+
+#patient-box{
+    background-color: #00CCB1;
+}
+/* #country{
+    display: none;
+    position: absolute;
+}
+#select-cach:hover #country{
+    display: inline-block;
+} */
+#doctor-box{
+    background-color: #3D83DF;
+}
+
+#clinic-box{
+    background-color: #1B2734;
+}
+.box-title {
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 1px;
+    width: 247.6px;
+    height: 33.8px;
+    margin:  8px 0px 8px 0px;
+    font-weight: 600;
+    line-height: 33.8px;
+}
+.box-description{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 23px;
+    font-weight: 300;
+    color: white;
+    margin: 0px;
+    line-height: 28.8px;
+}
+.select-box1{
+    border: none;
+}
+.selected{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 19.2px;
+    line-height: 24.96px;
+    color: white;
+}
+.boxes-3{
+    display: flex;
+    justify-content: space-around;
+    width: 1015px;
+    height: 365px;
+    margin-left: 252px;
+}
+.box{
+    width: 250.625px;
+    height: 315px;
+    border-radius: 10px;
+    padding: 32px 32px 0px 32px;
+}
+.cadre{
+    width: 331.625px;
+    height: 325px;
+    padding: 10px;
+}
+.box img{
+    width: 24px;
+    height: 24px; 
+    max-width: 100%;
+}
+/* les logo lien */
+.port-grille{
+    display: flex;
+    justify-content: space-around;
+    width: 1015px;
+    margin: 40px 250px 50px 250px;
+    background-color: #f6f8f8;
+}
+
+.port-grille h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 26px;
+    font-weight: 300;
+    color: #00b39b;
+    width: 321.75;
+    height: 101.4;
+    margin: 7px 0px 9px 0px;
+    padding: 0px 26px 0px 0px;
+}
+
+
+/* background-image */
+.background-image{
+    background-color: #3D83DF;
+    background-image: url("media/fond d'écran.png");
+    height: 600px;
+    width: 1519.2px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: -200px;
+    padding-right: 192px;
+  
+}
+#background-image{
+    margin-left: 400px;
+    width: 1015px;
+    height: 560px;
+    margin-left: 450px;
+    padding-top: 50px;
+    display: flex;
+    justify-content: space-around;
+
+}
+.health-care h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 300;
+    color: #00b39b;
+    line-height: 44.2px;
+    width: 477.5px;
+}
+.health-care p{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #747474;
+    line-height: 24px;
+    width: 415px;
+}
+.health-care{
+padding-left: 10px;
+width: 497.5px;
+height: 201.2px;
+}
+
+#col2{
+    display: flex;
+}
+.acheivment1{
+    display: block;
+    padding: 30px 10px 30px 10px;
+    margin-top: -30px;
+}
+.acheivment2{
+    display: block;
+    padding: 10px;
+    margin-top: -40px;
+}
+.item{
+    background-color: white;
+    padding: 15px 15px 15px 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    height: 220px;
+}
+.text{
+    text-align: center;
+    width: 198.75px;
+    height: 220px;
+}
+.text1{
+    padding-top: 30px;
+}
+#leader{
+    padding-top: 10px;
+}
+
+.titre-item{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 300;
+    color: #00b39b;
+    margin: 12px 0px 12px 0px;
+}
+.para-item{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 13px;
+    color: #747474;    
+}
+
+/* improve paragraph section */
+#improve h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #00b39b; 
+    text-align: center;
+    width: 460px;
+    height: 78px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#improve p{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 14px;
+    color: #747474;
+    text-align: center;
+    width: 460px;
+    height: 78px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:22px;
+    line-height: 24px;
+}
+#improve{
+    margin-top: 88px;
+}
+
+/* cities photos */
+#figure{
+    width: 1100px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 80px;
+    margin-top: 70px;
+}
+.figure-title h1{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #747474; 
+
+}
+.figure-title p{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: white; 
+    background-color: #3D83DF;
+    text-align: center;
+    padding: 10px 15px;
+    width: 103.662px;
+    position: relative;
+    border-radius: 5px;
+}
+.figure-title{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+       
+}
+.figures a{
+    text-decoration: none;
+    border: 1px solid white;
+    border-radius: 20px;
+}
+.figures a:hover{
+    cursor: pointer;
+}
+.figures{
+    width: 331.625px;
+    padding: 3px;
+    text-align: center;
+}
+.image-figure{
+    border-radius: 5px;
+}
+
+
+/* JOIN US */
+.join h1{
+    font-family: "Work Sans", Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+    color: #333333; 
+    text-align: center;
+    width: 520px;
+    height: 39px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.join a{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: #3d83df;
+    color: white; 
+    text-align: center;
+    width: 210.4px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    letter-spacing: 0.48px;
+}
+
+/* footer */
+footer p{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+    color: #ababab; 
+    line-height: 15.6px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 19px;
+    margin-bottom: 5px;
+
+}
+.link{
+    font-family: "Roboto", Arial, sans-serif;
+    font-size: 12px;
+    color: #3d83df; 
+    line-height: 15.6px;
+    text-decoration: none;
+}
+.link:hover{
+    text-decoration: underline;
+} 
+
+#droit{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+footer{
+    border-top: 1px solid #eef2f2;
+    padding: 16px 0px 16px 0px;
+    margin-top: 80px;
+}
